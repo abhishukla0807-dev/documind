@@ -1,0 +1,13 @@
+
+### Submit a repo
+POST http://localhost:8080/api/repos
+Content-Type: application/json
+
+{
+  "url": "https://github.com/abhishukla0807-dev/syslens"
+}
+
+### Check status (id neeche wale response se copy karo)
+GET http://localhost:8080/api/repos/PASTE-ID-HERE/status
+
+
